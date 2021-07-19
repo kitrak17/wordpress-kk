@@ -1,0 +1,12 @@
+2021-07-01T08:35:19+00:00 CRITICAL Uncaught Error: Call to a member function get_unpaid_orders() on null in /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-content/plugins/code-widget/class-code-widget.php(210) : eval()'d code:2
+Stack trace:
+#0 /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-content/plugins/code-widget/class-code-widget.php(210): eval()
+#1 /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-content/plugins/code-widget/class-code-widget.php(84): Code_Widget->php_exe('<?php\r\n$unpaid_...')
+#2 /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-includes/class-wp-widget.php(380): Code_Widget->widget(Array, Array)
+#3 /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-includes/widgets.php(823): WP_Widget->display_callback(Array, Array)
+#4 /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-content/themes/twentytwentyone/template-parts/footer/footer-widgets.php(13): dynamic_sidebar('sidebar-1')
+#5 /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-includes/template.php(732): require('/Users/kmadhesw...')
+#6 /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-includes/template.p in /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-content/plugins/code-widget/class-code-widget.php(210) : eval()'d code on line 2
+
+2021-07-01T08:38:03+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /Users/kmadheswaran/Sites/wordpress-5.7.2/wp-content/plugins/code-widget/class-code-widget.php(210) : eval()'d code on line 3
+
