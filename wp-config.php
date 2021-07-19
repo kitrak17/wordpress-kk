@@ -41,10 +41,10 @@ $cleardb_url = "mysql://b1c2ec4629cbae:e5e76195@us-cdbr-east-04.cleardb.com/hero
 
 if(isset($cleardb_url)) {
     $db = parse_url($cleardb_url);
-    define('DB_NAME', "heroku_175821986883f1a");
-    define('DB_USER', "b1c2ec4629cbae");
-    define('DB_PASSWORD', "e5e76195");
-    define('DB_HOST', "us-cdbr-east-04.cleardb.com");
+    define('DB_NAME', "sql6426365");
+    define('DB_USER', "sql6426365");
+    define('DB_PASSWORD', "Please wait");
+    define('DB_HOST', "sql6.freemysqlhosting.net");
     define('DB_CHARSET', 'utf8');
     define('DB_COLLATE', '');
 } else {
