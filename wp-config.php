@@ -37,8 +37,10 @@
 /** The Database Collate type. Don't change this if in doubt. */
 //define( 'DB_COLLATE', '' );
 
-if(isset($_ENV['CLEARDB_DATABASE_URL'])) {
-    $db = parse_url($_ENV['CLEARDB_DATABASE_URL']);
+$cleardb_url = "mysql://b1c2ec4629cbae:e5e76195@us-cdbr-east-04.cleardb.com/heroku_175821986883f1a?reconnect=true";
+
+if(isset($cleardb_url)) {
+    $db = parse_url($cleardb_url);
     define('DB_NAME', trim($db['path'],`/`));
     define('DB_USER', $db['user']);
     define('DB_PASSWORD', $db['pass']);
